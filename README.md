@@ -83,11 +83,14 @@ Personal blog: https://github.com/BinarywoodB/BinarywoodB.github.io
     
     Create the new page **before** you add content to that page, or you will get 404 when nevigate to the page. Since the new page command will create index.html for the page.
 
-1. Create **about** page for your personal site
+1. Create pages for your personal site
 
     - Create page
         ```bash
         $ hexo new page about
+        $ hexo new page tags
+        $ hexo new page CV
+        $ hexo new page categories
         ```
     - Edit *blog/source/about/index.md* to add your about info.
     - Update *_config.yml*
@@ -97,18 +100,34 @@ Personal blog: https://github.com/BinarywoodB/BinarywoodB.github.io
         menu:
             home: / || fa fa-home
             about: /about/ || fa fa-user
+            CV: /CV/ || fa fa-heartbeat
+            tags: /tags/ || fa fa-tags
+            categories: /categories/ || fa fa-th
+            archives: /archives/ || fa fa-archive
+        ```
+    - Add "type" to *blog/source/tags/index.md* and *blog/source/categories/index.md*. So posts with "tags" or "categories" can be sorted into these two pages.
+        ```md
+        # *blog/source/tags/index.md*
+        ---
+        title: tags
+        date: 2021-01-02 16:24:48
+        type: "tags"
+        ---
+
+        # blog/source/categories/index.md
+        ---
+        title: categories
+        date: 2021-01-02 19:56:18
+        type: "categories"
+        ---
         ```
 
 1. Create a new post
 
-    Place your default blogs as posts. To create new post
+    Place your default blogs as posts. To create new post:
 
     ```bash
-    # You need to point out path. Default layout is post.
-    $ hexo new page --path about/me "About me"
-
-    $ hexo publish [layout] <filename>
-    # E.g. hexo publish 
+    $ hexo new "post file name"
     ```
 
 1. Create a new draft

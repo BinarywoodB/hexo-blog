@@ -101,7 +101,7 @@ theme_config:
     about: /about/ || fa fa-user
     CV: /CV/ || fa fa-heartbeat
     tags: /tags/ || fa fa-tags
-    # categories: /categories/ || fa fa-th
+    categories: /categories/ || fa fa-th
     archives: /archives/ || fa fa-archive
   social:
     GitHub: https://github.com/dilin-ms  || fab fa-github
@@ -109,6 +109,7 @@ theme_config:
     E-Mail: mailto:lindisjtu@gmail.com || fa fa-envelope
     FB Page: https://www.facebook.com/profile.php?id=100015508938807 || fab fa-facebook
     Weibo: https://www.weibo.com/2196766810 || fab fa-weibo
+    Instagram: https://www.instagram.com/lindisjtu/ || fab fa-instagram
 
   avatar:
     url: /images/avatar.jpg
