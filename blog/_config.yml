@@ -5,28 +5,11 @@
 # Site
 title: Di Lin's Blog
 subtitle: ''
-description: ''
+description: "Di Lin's personal blog"
 keywords:
 author: Di Lin
 language: en
 timezone: ''
-
-menu:
-  home: /
-  categories: /categories
-  archives: /archives
-  tags: /tags
-  about: /about
-  books: /books
-
-avatar: /avatar.jpg
-
-social:
-  GitHub: https://github.com/BinarywoodB
-  Jianshu: https://www.jianshu.com/u/9c1a50b5f7c6
-  Weibo: https://www.weibo.com/2196766810
-  DouBan: https://www.douban.com/people/binarywang/
-  ZhiHu: your-zhihu-url
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -42,6 +25,7 @@ pretty_urls:
 source_dir: source
 public_dir: public
 tag_dir: tags
+about_dir: about
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
@@ -111,6 +95,35 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
+theme_config:
+  # menu:
+  #   home: /
+  #   # categories: /categories
+  #   # archives: /archives
+  #   # tags: /tags
+  #   about: /about
+  #   # books: /books
+  #   archives: /archives/
+  menu:
+    home: / || fa fa-home
+    about: /about/ || fa fa-user
+    #tags: /tags/ || fa fa-tags
+    #categories: /categories/ || fa fa-th
+    archives: /archives/ || fa fa-archive
+    #schedule: /schedule/ || fa fa-calendar
+    #sitemap: /sitemap.xml || fa fa-sitemap
+    #commonweal: /404/ || fa fa-heartbeat
+  # social:
+  #   GitHub: https://github.com/BinarywoodB
+  #   Jianshu: https://www.jianshu.com/u/9c1a50b5f7c6
+  #   Weibo: https://www.weibo.com/2196766810
+  #   DouBan: https://www.douban.com/people/binarywang/
+  #   ZhiHu: your-zhihu-url
+
+  avatar:
+    url: /images/avatar.jpg
+  sidebar:
+    position: right
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
