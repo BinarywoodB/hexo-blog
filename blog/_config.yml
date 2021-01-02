@@ -3,17 +3,34 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Di Lin's Blog
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: Di Lin
 language: en
 timezone: ''
 
+menu:
+  home: /
+  categories: /categories
+  archives: /archives
+  tags: /tags
+  about: /about
+  books: /books
+
+avatar: /avatar.jpg
+
+social:
+  GitHub: https://github.com/BinarywoodB
+  Jianshu: https://www.jianshu.com/u/9c1a50b5f7c6
+  Weibo: https://www.weibo.com/2196766810
+  DouBan: https://www.douban.com/people/binarywang/
+  ZhiHu: your-zhihu-url
+
 # URL
-## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://example.com
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: https://binarywoodb.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -51,11 +68,6 @@ highlight:
   tab_replace: ''
   wrap: true
   hljs: false
-prismjs:
-  enable: false
-  preprocess: true
-  line_number: true
-  tab_replace: ''
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -101,6 +113,9 @@ ignore:
 theme: next
 
 # Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
+## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repo:
+    github: git@github.com:BinarywoodB/BinarywoodB.github.io.git
+  branch: master
