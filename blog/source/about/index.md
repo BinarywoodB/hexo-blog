@@ -3,6 +3,8 @@ title:
 date: 2021-01-02 16:42:03
 ---
 
+![profile.jpg](/images/profile.jpg)
+
 # Di Lin (林迪)
 
 ## Currently worked as SDE in:
