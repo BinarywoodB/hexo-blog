@@ -96,29 +96,19 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: next
 theme_config:
-  # menu:
-  #   home: /
-  #   # categories: /categories
-  #   # archives: /archives
-  #   # tags: /tags
-  #   about: /about
-  #   # books: /books
-  #   archives: /archives/
   menu:
     home: / || fa fa-home
     about: /about/ || fa fa-user
-    #tags: /tags/ || fa fa-tags
-    #categories: /categories/ || fa fa-th
+    CV: /CV/ || fa fa-heartbeat
+    tags: /tags/ || fa fa-tags
+    # categories: /categories/ || fa fa-th
     archives: /archives/ || fa fa-archive
-    #schedule: /schedule/ || fa fa-calendar
-    #sitemap: /sitemap.xml || fa fa-sitemap
-    #commonweal: /404/ || fa fa-heartbeat
-  # social:
-  #   GitHub: https://github.com/BinarywoodB
-  #   Jianshu: https://www.jianshu.com/u/9c1a50b5f7c6
-  #   Weibo: https://www.weibo.com/2196766810
-  #   DouBan: https://www.douban.com/people/binarywang/
-  #   ZhiHu: your-zhihu-url
+  social:
+    GitHub: https://github.com/dilin-ms  || fab fa-github
+    # Jianshu: https://www.jianshu.com/u/9c1a50b5f7c6
+    E-Mail: mailto:lindisjtu@gmail.com || fa fa-envelope
+    FB Page: https://www.facebook.com/profile.php?id=100015508938807 || fab fa-facebook
+    Weibo: https://www.weibo.com/2196766810 || fab fa-weibo
 
   avatar:
     url: /images/avatar.jpg

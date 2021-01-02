@@ -85,10 +85,19 @@ Personal blog: https://github.com/BinarywoodB/BinarywoodB.github.io
 
 1. Create **about** page for your personal site
 
-    ```bash
-    $ hexo new page about
-    ```
-    Edit *blog/source/about/index.md* to add your about info.
+    - Create page
+        ```bash
+        $ hexo new page about
+        ```
+    - Edit *blog/source/about/index.md* to add your about info.
+    - Update *_config.yml*
+        ```yaml
+        theme: next
+        theme_config:
+        menu:
+            home: / || fa fa-home
+            about: /about/ || fa fa-user
+        ```
 
 1. Create a new post
 
@@ -100,6 +109,16 @@ Personal blog: https://github.com/BinarywoodB/BinarywoodB.github.io
 
     $ hexo publish [layout] <filename>
     # E.g. hexo publish 
+    ```
+
+1. Create a new draft
+
+    ```bash
+    # You need to point out path. Default layout is post.
+    $ hexo new draft "newDraft"
+
+    $ hexo publish [layout] <filename>
+    # E.g. hexo publish
     ```
 
 ## Travis CI to Deploy Blog to GitHub Page
