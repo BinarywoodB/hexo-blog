@@ -140,6 +140,11 @@ Personal blog: https://github.com/BinarywoodB/BinarywoodB.github.io
     # E.g. hexo publish
     ```
 
+1. Local debug
+    ```bash
+    hexo g && hexo s
+    ```
+
 1. Deploy to GitHub Page
     - Under *blog/* directory, install git as deployer
         ```bash
@@ -157,9 +162,6 @@ Personal blog: https://github.com/BinarywoodB/BinarywoodB.github.io
         ```bash
         hexo clean && hexo g && hexo d
         ```
-
-
-## Travis CI to Deploy Blog to GitHub Page
 
 ## Known Issue
 1. Next theme icon not showing when deploy to GitHub page [[REF: The icons are gone?](https://github.com/theme-next/hexo-filter-optimize/issues/2)]
