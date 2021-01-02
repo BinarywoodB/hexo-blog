@@ -23,7 +23,7 @@ categories:
 
 1. 上下左右
 
-    ![image.png](https://upload-images.jianshu.io/upload_images/3222137-aa61390454f54e0d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+    ![image.png](/images/direction.png)
 
 2. dd: 删除一行
     u: undo
