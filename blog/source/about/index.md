@@ -16,7 +16,7 @@ date: 2021-01-02 16:42:03
 ## Education
 * Shanghai Jiao Tong University
 
-    * Sept, 2014 - July, 2018
+    * Sept 2014 - July 2018
     * Bachelor of engineering
     * Major: Electronic Engineering
 
