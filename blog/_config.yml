@@ -150,4 +150,4 @@ deploy:
   type: git
   repo:
     github: git@github.com:BinarywoodB/BinarywoodB.github.io.git
-  branch: master
+  branch: main
