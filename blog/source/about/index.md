@@ -26,4 +26,4 @@ date: 2021-01-02 16:42:03
 
 ## CV
 
-Please refer to my [curriculum vitae](/CV/index.md) for details.
+Please refer to my [curriculum vitae](/CV) for details.
