@@ -148,6 +148,5 @@ filter_optimize:
 # Dependencies: https://github.com/hexojs/hexo-deployer-git
 deploy:
   type: git
-  repo:
-    github: git@github.com:BinarywoodB/BinarywoodB.github.io.git
+  repo: git@github.com:BinarywoodB/BinarywoodB.github.io.git
   branch: main

@@ -153,10 +153,9 @@ Personal blog: https://github.com/BinarywoodB/BinarywoodB.github.io
     - Update *_config.yml* file
         ```yaml
         deploy:
-        type: git
-        repo:
-            github: git@github.com:BinarywoodB/BinarywoodB.github.io.git
-        branch: master
+            type: git
+            repo: git@github.com:BinarywoodB/BinarywoodB.github.io.git
+            branch: main
         ```
     - Deploy To GitHub Page
         ```bash
