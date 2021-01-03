@@ -7,16 +7,18 @@ date: 2021-01-02 16:42:03
 
 # Di Lin (林迪)
 
-## Currently worked as SDE in:
-* Microsoft C+AI, DevDiv China, Meta OS team 
+## Position
+
+* Software Development Engineer
+* Microsoft, Cloud+AI Department, DevDiv China, MetaOS team 
 * Shanghai, China
 
-## Graduated from:
+## Education
 * Shanghai Jiao Tong University
 
     * Sept, 2014 - July, 2018
-    * Department of  Electronic Engineering
-    * Bachelor's Degree of Engineering
+    * Bachelor of engineering
+    * Major: Electronic Engineering
 
 ## Contact
 * Email: lindisjtu(at)gmail(dot)com
