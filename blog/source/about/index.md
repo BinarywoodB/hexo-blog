@@ -14,10 +14,14 @@ date: 2021-01-02 16:42:03
 ## Graduated from:
 * Shanghai Jiao Tong University
 
-    * July, 2014 - July, 2018
+    * Sept, 2014 - July, 2018
     * Department of  Electronic Engineering
     * Bachelor's Degree of Engineering
 
 ## Contact
 * Email: lindisjtu(at)gmail(dot)com
 * WeChat: lindi1114891038
+
+## CV
+
+Please refer to my [curriculum vitae](/CV/index.md) for details.
