@@ -130,6 +130,7 @@ Personal blog: https://github.com/BinarywoodB/BinarywoodB.github.io
 
     ```bash
     $ hexo new "post file name"
+    $ hexo new -p toolkit/delete-useless-aad-app.md "Delete Useless AAD App"
     ```
 
 1. Create a new draft
