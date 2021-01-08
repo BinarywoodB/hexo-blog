@@ -33,15 +33,17 @@ Personal blog: https://github.com/BinarywoodB/BinarywoodB.github.io
     ```
 
 1. Use nexT them
-    
-    ```bash
-    cd blog/
-    git clone https://github.com/theme-next/hexo-theme-next themes/next
-    ```
-    Update `_config.yml`:
-    ```
-    theme: next
-    ```
+
+    - Fork next theme repo to your personal github so later you can make changes to the next config. Go to https://github.com/theme-next/hexo-theme-next and click fork to your personal github.
+
+    - Set next as your hexo blog's submodule.
+        ```bash
+        git submodule add https://github.com/<your-github-name>/hexo-theme-next blog/themes/next
+        ```
+    - Update `blog/_config.yml`:
+        ```
+        theme: next
+        ```
 
 1. Overwrite nexT config
     

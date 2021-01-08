@@ -1,3 +1,3 @@
-[submodule "blog/themes/next"]
+[submodule "dilin-next-repo"]
 	path = blog/themes/next
-	url = https://github.com/theme-next/hexo-theme-next
+	url = git@github.com:dilin-MS/hexo-theme-next.git
