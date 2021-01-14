@@ -9,11 +9,22 @@ date: 2021-01-02 16:42:03
 
 ## Position
 
-* Software Development Engineer
-* Microsoft, Cloud+AI Department, DevDiv China, MetaOS team 
+* Software Engineer at Microsoft
+* Cloud+AI Department, DevDiv China, MetaOS team 
 * Shanghai, China
 
+## Skills
+
+* C++
+* C#
+* TypeScript
+* Visual Studio Code
+* Internet of Things (IoT)
+* Authentication and Authorization
+* Microsoft Azure
+
 ## Education
+
 * Shanghai Jiao Tong University
 
     * Sept 2014 - July 2018
@@ -21,6 +32,7 @@ date: 2021-01-02 16:42:03
     * Major: Electronic Engineering
 
 ## Contact
+
 * Email: lindisjtu(at)gmail(dot)com
 * WeChat: lindi1114891038
 
