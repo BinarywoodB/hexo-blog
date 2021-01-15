@@ -46,6 +46,7 @@ A powershell script used to delete useless AAD app under your account.
     .\deleteAADAapp.ps1
     ```
 
+
 ## Reference GitHub Repo
 
 [delete-useless-aad-app-by-name-tool](https://github.com/dilin-MS/delete-useless-aad-app-by-name-tool)

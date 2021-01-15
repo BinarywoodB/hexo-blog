@@ -36,3 +36,8 @@
 ## Actors & Actress
 * 石原里美
 * Keria Knightly 
+
+## Tech
+* OAuth 2.0
+
+    https://aaronparecki.com/oauth-2-simplified/
