@@ -13,14 +13,26 @@ categories:
 ## Category
 
 * Commodity coffee 商品咖啡 / Specialty coffee 精品咖啡
-* Instant coffee 速溶咖啡 / Capsule coffee 胶囊咖啡 / Drip coffee 挂耳咖啡 / Pour-over coffee 手冲咖啡
-Expresso VS non-espresso
+* Black Coffee 黑咖啡：Coffee without creamer or milk 不含奶精或牛奶的咖啡
+    * Espresso 意式浓缩
+    * Doppio (double espresso)
+    * Ristretto
+    * Drip Coffee 挂耳咖啡
+    * Pour Over Coffee 手冲咖啡
+    * Capsule coffee 胶囊咖啡
+    * Instant coffee 速溶咖啡
+    * Americano 美式咖啡
+    * Long black coffee
+    * American coffee 美式咖啡（由美式滴滤机做出来的滴滤咖啡）
 
+![coffee_category.png](/images/life/coffee/coffee_category.png)
 ![arabica.png](/images/life/coffee/arabica.png)
 ![robusta.png](/images/life/coffee/robusta.png)
 
 
 ## Standrad
+
+SCA: Specialty Coffee Association
 
 ![sca.png](/images/life/coffee/sca.png)
 
@@ -44,3 +56,4 @@ These are the three acts of its story.
 * [A Film about COFFEE (2014)](https://www.bilibili.com/video/BV1Vt411A7Jm?from=search&seid=12844619904237828625)
 * [【回形针PaperClip】速溶咖啡为什么这么难喝？](https://www.bilibili.com/video/BV1Bz4y1k73v?from=search&seid=5648241235532348448)
 * [How stuff work: Coffee（原来如此：咖啡）](classification)
+* [Type of Coffee](https://voltagecoffee.com/types-of-coffee/)
