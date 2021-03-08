@@ -2,10 +2,11 @@
 title: Learn Node.js
 date: 2021-03-07 20:27:45
 tags:
-- tutorial
-- node.js
-- youtube
-- technical-learning-notes
+- Tutorial
+- Node.js
+- Youtube
+categories:
+- Tutorial
 ---
 
 ![node logo](/images/tutorial/node/nodejs-logo.png)
