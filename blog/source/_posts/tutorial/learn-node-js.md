@@ -78,9 +78,18 @@ In the Node.js module system, each file is treated as a separate module.
 [Overview of Blocking vs Non-Blocking](https://nodejs.org/en/docs/guides/blocking-vs-non-blocking/)
 
 ### Load Testing
+* [Apache Benchmark](https://httpd.apache.org/docs/2.4/programs/ab.html)
+* [loadtest](https://www.npmjs.com/package/loadtest)
 
+    ```
+    loadtest -c 10 --rps 200 http://mysite.com/
+    ```
 
+Consider case where each request to a web server takes 50ms to complete and 45ms of that 50ms is database I/O that can be done asynchronously. Choosing **non-blocking** asynchronous operations frees up that 45ms per request to handle other requests. This is a significant difference in capacity just by choosing to use **non-blocking** methods instead of **blocking** methods.
 
+## [Unit 5: The event loop](https://www.youtube.com/watch?v=X9zVB9WafdE)
+
+[A complete guide to the Node.js event loop](https://blog.logrocket.com/a-complete-guide-to-the-node-js-event-loop/)
 ## [Unit 8: Node dependency management](https://www.youtube.com/watch?v=HOhTu3tl3Mw)
 
 1. **Semantic version (semver)**
