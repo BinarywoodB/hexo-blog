@@ -77,3 +77,4 @@ Digital certificate verifies the digital signature is truly signed by the claime
 * [Why digital certificate?](https://www.youtube.com/watch?v=UbMlPIgzTxc)
 * [How SSL certificate works?](https://www.youtube.com/watch?v=33VYnE7Bzpk)
 * [How does HTTPS work? What's a CA? What's a self-signed Certificate?](https://www.youtube.com/watch?v=T4Df5_cojAs)
+* [What is digital signature?](https://www.youtube.com/watch?v=TmA2QWSLSPg)
