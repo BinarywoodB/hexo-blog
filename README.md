@@ -229,6 +229,8 @@ Personal blog: https://github.com/BinarywoodB/BinarywoodB.github.io
         ```bash
         hexo clean && hexo g && hexo d
         ```
+1. Case sensitive issue of files / directories of `tags`/`categories`.
 
+    Resolved: [hexo-deploy-case-sensitive](http://1mhz.me/2015/hexo-deploy-case-sensitive/) 
 ## Reference
 * [Hexo Blog Documentation](https://hexo.io/docs/)
