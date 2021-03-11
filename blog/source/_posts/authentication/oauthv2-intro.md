@@ -100,6 +100,11 @@ The authorization code grant type is the most commonly used because it is optimi
 ### Resource Owner Password Credentials
 ### Client Credentials
 
+
+## More Read
+* [Microsoft Identity Platform: OAuth 2.0](/2021/03/11/authentication/microsoft-identity-platform)
+
+
 ## Ref
 * [An Introduction to OAuth 2](https://www.digitalocean.com/community/tutorials/an-introduction-to-oauth-2)
 * [阮一峰的网络日志：理解OAuth 2.0](https://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html)

@@ -135,14 +135,14 @@ Two popular third party logging packages for Node applications
 * [Winston](https://www.npmjs.com/package/winston)
 * [Log4js](https://www.npmjs.com/package/log4js​)
 
-Logging Example on GitHub: https://github.com/jstevenperry/IBM-Developer/tree/master/Node.js/Course/Unit-10
+Logging Example on GitHub: [link](https://github.com/jstevenperry/IBM-Developer/tree/master/Node.js/Course/Unit-10)
 
 ## [Unit 11: ExpressJS and Pug](https://www.youtube.com/watch?v=kaql4sIjpbU&list=PL_Kpc42ZZa74gs2Sc94M2wAhZvwWDyd5o&index=10)
 
 * ExpressJS: for a web framework, which includes routing.
 * Pug: for the user interface.
 
-ExpressJS and Pug Example on GitHub: https://github.com/jstevenperry/IBM-Developer/tree/master/Node.js/Course/Unit-11
+ExpressJS and Pug Example on GitHub: [link](https://github.com/jstevenperry/IBM-Developer/tree/master/Node.js/Course/Unit-11)
 
 ## [Unit 12: MongoDB](https://www.youtube.com/watch?v=FBmSzlpyVAI&list=PL_Kpc42ZZa74gs2Sc94M2wAhZvwWDyd5o&index=11)
 
@@ -151,6 +151,6 @@ ExpressJS and Pug Example on GitHub: https://github.com/jstevenperry/IBM-Develop
 * [NoSQL databases (WikiPedia)](https://en.wikipedia.org/wiki/NoSQL)
 * MongoDB:
     
-    * GitHub repo: https://github.com/mongodb/mongo
-    * Getting Started: https://docs.mongodb.com/manual/tutorial/getting-started/
+    * [GitHub repo](https://github.com/mongodb/mongo) 
+    * [Getting Started](https://docs.mongodb.com/manual/tutorial/getting-started/) 
 * [Example](https://github.com/jstevenperry/IBM-Developer/tree/master/Node.js/Course/Unit-12)

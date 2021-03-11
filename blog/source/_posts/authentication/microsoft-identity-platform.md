@@ -40,16 +40,100 @@ https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token
 
 ### Tokens
 
-// TOASK: How can **bearer token** ensure security in HTTP request? Can eavesdroppers get the header token?
+> // TOASK: How can **bearer token** ensure security in HTTP request? Can eavesdroppers get the header token?
 
 * **Access tokens** - tokens that a resource server receives from a client, containing permissions the client has been granted.
 * **ID tokens** - tokens that a client receives from the authorization server, used to sign in a user and get basic information about them.
 * **Refresh tokens** - used by a client to get new access and ID tokens over time. These are opaque strings, and are only understandable by the authorization server.
 
-## Authorization Code Flow
+## Authorization Grant Types
 
-![microsoft-identity-auth-code-flow](/images/authentication/oauthv2-intro/microsoft-identity-auth-code-flow.png)
+### Authorization Code Flow
+
+![microsoft-identity-auth-code-flow](/images/authentication/microsoft-identity-platform/microsoft-identity-auth-code-flow.png)
+
+
+> // TOASK: How does Web API validate token??
+
+1. Request an authorization code.
+    
+    ```HTTP
+    // Line breaks for legibility only
+
+    https://login.microsoftonline.com/{tenant}/oauth2/v2.0/authorize?
+    client_id=6731de76-14a6-49ae-97bc-6eba6914391e
+    &response_type=code
+    &redirect_uri=http%3A%2F%2Flocalhost%2Fmyapp%2F
+    &response_mode=query
+    &scope=https%3A%2F%2Fgraph.microsoft.com%2Fmail.read%20api%3A%2F%2F
+    &state=12345
+    &code_challenge=YTFjNjI1OWYzMzA3MTI4ZDY2Njg5M2RkNmVjNDE5YmEyZGRhOGYyM2IzNjdmZWFhMTQ1ODg3NDcxY2Nl
+    &code_challenge_method=S256
+    ```
+
+1. Request an access token
+
+    ```HTTP
+    // Line breaks for legibility only
+
+    POST /{tenant}/oauth2/v2.0/token HTTP/1.1
+    Host: https://login.microsoftonline.com
+    Content-Type: application/x-www-form-urlencoded
+
+    client_id=6731de76-14a6-49ae-97bc-6eba6914391e
+    &scope=https%3A%2F%2Fgraph.microsoft.com%2Fmail.read
+    &code=OAAABAAAAiL9Kn2Z27UubvWFPbm0gLWQJVzCTE9UkP3pSx1aXxUjq3n8b2JRLk4OxVXr...
+    &redirect_uri=http%3A%2F%2Flocalhost%2Fmyapp%2F
+    &grant_type=authorization_code
+    &code_verifier=ThisIsntRandomButItNeedsToBe43CharactersLong 
+    &client_secret=JqQX2PNo9bpM0uEihUPzyrh    // NOTE: Only required for web apps. This secret needs to be URL-Encoded.
+    ```
+1. Refresh the access token
+
+    ```HTTP
+    // Line breaks for legibility only
+
+    POST /{tenant}/oauth2/v2.0/token HTTP/1.1
+    Host: https://login.microsoftonline.com
+    Content-Type: application/x-www-form-urlencoded
+
+    client_id=6731de76-14a6-49ae-97bc-6eba6914391e
+    &scope=https%3A%2F%2Fgraph.microsoft.com%2Fmail.read
+    &refresh_token=OAAABAAAAiL9Kn2Z27UubvWFPbm0gLWQJVzCTE9UkP3pSx1aXxUjq...
+    &grant_type=refresh_token
+    &client_secret=JqQX2PNo9bpM0uEihUPzyrh      // NOTE: Only required for web apps. This secret needs to be URL-Encoded
+    ```
+
+
+### Authorization Code Flow (with PKCE) for SPA
+
+![microsoft-identity-auth-code-flow-with-pkce](/images/authentication/microsoft-identity-platform/microsoft-identity-auth-code-flow-with-pkce.png)
+
+> // TOASK: Is it secure to use auth code in SPA when using PKCE?
+
+
+### Implicit
+### Resource Owner Password Credentials
+### Client Credentials
+
+
+## Example
+
+In our implementation, Tab app uses **authorization code flow with PKCE**.
+1. Tab App *frontend* gets auth code.
+    1) Frontend browser pop up login page (/public/auth-start.html).
+    2) User login and consent, frontend page redirect user to redirect_uri (/public/auth-end.html).
+    3) End page parse authorization code and return to tab app.
+1. Tab App sends the auth code to *backend* **auth server** to get access token.
+
+## More Read
+
+* [OAuth 2.0 Introduction](/2021/03/10/authentication/oauthv2-intro)
+
 
 ## Ref
 
 * [OAuth 2.0 and OpenID Connect protocols on the Microsoft identity platform](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-v2-protocols)
+* [Scenario: Single-page application](https://docs.microsoft.com/en-us/azure/active-directory/develop/scenario-spa-overview)
+* [Single page apps using the authorization code flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/reference-third-party-cookies-spas)
+* [Microsoft identity platform and OAuth 2.0 authorization code flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow)
