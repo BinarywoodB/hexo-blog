@@ -35,7 +35,7 @@ The SSL/TLS protocol operates on:
 
 ### Step 3 Verify Digital Certificate
 ![step3](/images/tech/authentication/ssl-tls-protocol/step3.png)
-The client will contact the server's CA(certificate authority) and verify the server's [**digital certificate**](/2021/03/08/authentication/digital-signature-and-digital-certificate), thus confirming the authenticity of the web server.
+The client will contact the server's CA(certificate authority) and verify the server's [**digital certificate**](/2021/03/08/tech/authentication/digital-signature-and-digital-certificate), thus confirming the authenticity of the web server.
 GOAL: Establishing the trust on the web server.
 
 ### Step 4 ClientKeyExchange
@@ -63,8 +63,8 @@ Once the handshake is done, the server and client can now exchange messages that
 3. The `Https` and the green padlock only indicates the communications between client and server are encrypted. It does not says the website is "safe and good".
 
 ## More Read
-* [Digital Signature & Digital Certificate](/2021/03/08/authentication/digital-signature-and-digital-certificate)
-* [SSL, TLS, HTTP, HTTPS Explained](/2021/03/08/authentication/http-https-ssl-tls)
+* [Digital Signature & Digital Certificate](/2021/03/08/tech/authentication/digital-signature-and-digital-certificate)
+* [SSL, TLS, HTTP, HTTPS Explained](/2021/03/08/tech/authentication/http-https-ssl-tls)
 
 ## Ref
 * [SSL/TLS handshake Protocol](https://www.youtube.com/watch?v=sEkw8ZcxtFk)

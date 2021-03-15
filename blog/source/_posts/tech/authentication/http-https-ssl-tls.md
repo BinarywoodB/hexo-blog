@@ -32,8 +32,8 @@ categories:
 * Authenticates the server, client and encrypts the data.
 
 ## More Read
-* [SSL/TLS handshake protocol](/2021/03/08/authentication/ssl-tls-protocol)
-* [Digital Signature & Digital Certificate](/2021/03/08/authentication/digital-signature-and-digital-certificate)
+* [SSL/TLS handshake protocol](/2021/03/08/tech/authentication/ssl-tls-protocol)
+* [Digital Signature & Digital Certificate](/2021/03/08/tech/authentication/digital-signature-and-digital-certificate)
 
 ## Ref
 * [SSL, TLS, HTTP, HTTPS Explained](https://www.youtube.com/watch?v=hExRDVZHhig)

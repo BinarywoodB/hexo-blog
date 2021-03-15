@@ -130,7 +130,7 @@ In our implementation, Tab app uses **authorization code flow with PKCE**.
 
 ## More Read
 
-* [OAuth 2.0 Introduction](/2021/03/10/authentication/oauthv2-intro)
+* [OAuth 2.0 Introduction](/2021/03/10/tech/authentication/oauthv2-intro)
 
 
 ## Ref

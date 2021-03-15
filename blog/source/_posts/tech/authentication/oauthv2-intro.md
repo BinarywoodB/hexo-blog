@@ -104,7 +104,7 @@ The authorization code grant type is the most commonly used because it is optimi
 
 
 ## More Read
-* [Microsoft Identity Platform: OAuth 2.0](/2021/03/11/authentication/microsoft-identity-platform)
+* [Microsoft Identity Platform: OAuth 2.0](/2021/03/11/tech/authentication/microsoft-identity-platform)
 
 
 ## Ref

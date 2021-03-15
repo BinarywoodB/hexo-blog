@@ -71,8 +71,8 @@ Digital certificate verifies the digital signature is truly signed by the claime
 
 
 ## More Read
-* [SSL/TLS handshake protocol](/2021/03/08/authentication/ssl-tls-protocol)
-* [SSL, TLS, HTTP, HTTPS Explained](/2021/03/08/authentication/http-https-ssl-tls)
+* [SSL/TLS handshake protocol](/2021/03/08/tech/authentication/ssl-tls-protocol)
+* [SSL, TLS, HTTP, HTTPS Explained](/2021/03/08/tech/authentication/http-https-ssl-tls)
 
 ## Ref
 * [Why digital certificate?](https://www.youtube.com/watch?v=UbMlPIgzTxc)
