@@ -6,6 +6,7 @@ tags:
 - Azure
 - PowerShell
 categories:
+- Tech
 - Toolkit
 ---
 

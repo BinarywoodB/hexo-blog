@@ -5,6 +5,7 @@ tags:
 - Bash
 - Linux
 categories:
+- Tech
 - Toolkit
 ---
 

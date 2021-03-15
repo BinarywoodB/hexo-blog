@@ -12,6 +12,7 @@ tags:
 - Man-in-the-middle attack
 - Youtube
 categories:
+- Tech
 - Authentication
 ---
 
@@ -29,7 +30,7 @@ A digital signature serves three basic purposes.
 
 ### How Digital Signature Works
 
-![what-is-digital-signature](/images/authentication/digital-signature-and-digital-certificate/what-is-digital-signature.png)
+![what-is-digital-signature](/images/tech/authentication/digital-signature-and-digital-certificate/what-is-digital-signature.png)
 
 Keep in mind, digital signature is not about encrypting document, just like paper-based signature.
 
@@ -38,9 +39,9 @@ Digital signature lacks authentication! (Anyone can pretend he is Bob.)
 
 Man-in-the-middle attack:
 
-![Man-in-the-middle-attack-1](/images/authentication/digital-signature-and-digital-certificate/Man-in-the-middle-attack-1.png)
+![Man-in-the-middle-attack-1](/images/tech/authentication/digital-signature-and-digital-certificate/Man-in-the-middle-attack-1.png)
 
-![Man-in-the-middle-attack-2](/images/authentication/digital-signature-and-digital-certificate/Man-in-the-middle-attack-2.png)
+![Man-in-the-middle-attack-2](/images/tech/authentication/digital-signature-and-digital-certificate/Man-in-the-middle-attack-2.png)
 
 So we need **digital certificate**!
 
@@ -57,16 +58,16 @@ Digital certificate verifies the digital signature is truly signed by the claime
 ### How SSL Certificate Works
 
 #### Prerequisites
-![pre](/images/authentication/digital-signature-and-digital-certificate/pre.png)
+![pre](/images/tech/authentication/digital-signature-and-digital-certificate/pre.png)
 
 #### SSL Certificate Flow
-![ssl-cer-flow](/images/authentication/digital-signature-and-digital-certificate/ssl-cer-flow.png)
+![ssl-cer-flow](/images/tech/authentication/digital-signature-and-digital-certificate/ssl-cer-flow.png)
 
 #### Signed on Trusted Third Party CA (eg. Google CA)
-![cer-with-gg](/images/authentication/digital-signature-and-digital-certificate/cer-with-gg.png)
+![cer-with-gg](/images/tech/authentication/digital-signature-and-digital-certificate/cer-with-gg.png)
 
 #### Self-Signed Certificate
-![self-sign-cer](/images/authentication/digital-signature-and-digital-certificate/self-sign-cer.png)
+![self-sign-cer](/images/tech/authentication/digital-signature-and-digital-certificate/self-sign-cer.png)
 
 
 ## More Read

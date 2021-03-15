@@ -56,7 +56,10 @@ categories:
 * > Can you please **articulate**(明确说明) why specifically the xxx interface is not suitable for an xxx flow?  
     Can you please **articulate** the release plans for the xxx, and point us to the design doc and/or code in progress if possible?
 
-* > 
+* > Please have a look at the docs and feel free to let us know if further meeting needed or we could close it offline.
+
+* > I left a couple of additional comments for thought.  **I think we are really close now.**
+
 
 ## Goodbye Email
 

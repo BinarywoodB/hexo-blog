@@ -7,7 +7,9 @@ tags:
 - Authorization
 - OAuth 2.0
 - Protocol
+- Azure Activity Directory (AAD)
 categories:
+- Tech
 - Authentication
 ---
 
@@ -35,7 +37,7 @@ OAuth 2 is an authorization framework that enables applications to obtain limite
 
 ### Abstract Protocol Flow
 
-![abstract_flow](/images/authentication/oauthv2-intro/abstract_flow.png)
+![abstract_flow](/images/tech/authentication/oauthv2-intro/abstract_flow.png)
 
 Detailed explanation of the steps in the diagram:
 1. The *application* requests authorization to access service resources from the *user*.
@@ -48,7 +50,7 @@ Detailed explanation of the steps in the diagram:
 
 ## Example
 
-![oauthv2-microsoft-identity](/images/authentication/oauthv2-intro/oauthv2-microsoft-identity.png)
+![oauthv2-microsoft-identity](/images/tech/authentication/oauthv2-intro/oauthv2-microsoft-identity.png)
 
 Take an example, we develop an app and hopes user can view his profile from the app, where user's profile info is stored in Microsoft Graph Service. In this scenario, roles are as below:
 
@@ -94,7 +96,7 @@ The authorization code grant type is the most commonly used because it is optimi
 
 这种方式是最常用的流程，安全性也最高，它适用于那些有后端的 Web 应用。授权码通过前端传送，令牌则是储存在后端，而且所有与资源服务器的通信都在后端完成。这样的前后端分离，可以避免令牌泄漏。
 
-![auth_code_flow](/images/authentication/oauthv2-intro/auth_code_flow.png)
+![auth_code_flow](/images/tech/authentication/oauthv2-intro/auth_code_flow.png)
 
 ### Implicit
 ### Resource Owner Password Credentials

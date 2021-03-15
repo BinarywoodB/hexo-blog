@@ -6,6 +6,7 @@ tags:
 - Commit
 - Best Practice
 categories:
+- Tech
 - Toolkit
 ---
 
@@ -17,7 +18,7 @@ categories:
 * [Udacity Git Commit Message Style Guide](http://udacity.github.io/git-styleguide/)
 * [阮一峰的网络日志：Commit message 和 Change log 编写指南](https://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
 
-![git-commit-message.png](/images/git-commit-message.png)
+![git-commit-message.png](/images/tech/toolkit/constructed-git-commit-message/git-commit-message.png)
 
 ## Commitizen
 
@@ -33,4 +34,4 @@ categories:
 
 1. Each time you want to `git commit`, use `git cz` instead.
 
-![git-cz-example.png](/images/git-cz-example.png)
+![git-cz-example.png](/images/tech/toolkit/constructed-git-commit-message/git-cz-example.png)

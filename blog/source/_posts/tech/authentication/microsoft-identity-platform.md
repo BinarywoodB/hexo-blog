@@ -9,7 +9,9 @@ tags:
 - OAuth 2.0
 - Microsoft Identity Platform
 - MSAL
+- Azure Activity Directory (AAD)
 categories:
+- Tech
 - Authentication
 ---
 
@@ -17,7 +19,7 @@ categories:
 
 ### The Basics
 
-![oauthv2-microsoft-identity](/images/authentication/oauthv2-intro/oauthv2-microsoft-identity.png)
+![oauthv2-microsoft-identity](/images/tech/authentication/oauthv2-intro/oauthv2-microsoft-identity.png)
 
 * The **Authorization Server** is the Microsoft identity platform and is responsible for ensuring the user's identity, granting and revoking access to resources, and issuing tokens. The authorization server is also known as the identity provider - it securely handles anything to do with the user's information, their access, and the trust relationships between parties in a flow.
 * The **Resource Owner** is typically the end user. It's the party that owns the data and has the power to allow clients to access that data or resource.
@@ -50,7 +52,7 @@ https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token
 
 ### Authorization Code Flow
 
-![microsoft-identity-auth-code-flow](/images/authentication/microsoft-identity-platform/microsoft-identity-auth-code-flow.png)
+![microsoft-identity-auth-code-flow](/images/tech/authentication/microsoft-identity-platform/microsoft-identity-auth-code-flow.png)
 
 
 > // TOASK: How does Web API validate token??
@@ -107,7 +109,7 @@ https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token
 
 ### Authorization Code Flow (with PKCE) for SPA
 
-![microsoft-identity-auth-code-flow-with-pkce](/images/authentication/microsoft-identity-platform/microsoft-identity-auth-code-flow-with-pkce.png)
+![microsoft-identity-auth-code-flow-with-pkce](/images/tech/authentication/microsoft-identity-platform/microsoft-identity-auth-code-flow-with-pkce.png)
 
 > // TOASK: Is it secure to use auth code in SPA when using PKCE?
 

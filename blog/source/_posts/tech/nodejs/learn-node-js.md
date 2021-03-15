@@ -5,23 +5,25 @@ tags:
 - Tutorial
 - Node.js
 - Youtube
-categories:
 - Tutorial
+categories:
+- Tech
+- NodeJS
 ---
 
-![node logo](/images/tutorial/node/nodejs-logo.png)
+![node logo](/images/tech/nodejs/nodejs-logo.png)
 
 
 ## [Unit 1: Overview of Node.js Learning Path](https://www.youtube.com/watch?v=dlwW2uvQtGY)
 
 * Node Architecture
     
-    ![node architecture](/images/tutorial/node/node-architecture.png)
+    ![node architecture](/images/tech/nodejs/node-architecture.png)
 * Libuv.org
 * node modules
 * [Overview of Blocking vs Non-Blocking](https://nodejs.org/en/docs/guides/blocking-vs-non-blocking/)
 * [Easy profiling for Node.js Applications](https://nodejs.org/en/docs/guides/simple-profiling/)
-* ![node event loop](/images/tutorial/node/event-loop.png)
+* ![node event loop](/images/tech/nodejs/event-loop.png)
 
 
 ## [Unit 2: Installing Node.js, npm, and VSCode](https://www.youtube.com/watch?v=jOrPHKqz_iE)
@@ -32,7 +34,7 @@ categories:
     * https://nodejs.org/en/download/
     * https://nodejs.org/en/about/releases/
 
-        ![release schedule](/images/tutorial/node/release-schedule.svg)
+        ![release schedule](/images/tech/nodejs/release-schedule.svg)
 
 1. [Install Node & Npm via node version manager (nvm)](https://github.com/nvm-sh/nvm)
 
@@ -43,7 +45,7 @@ categories:
 
 Node.js is a JavaScript runtime built on [Chrome V8 JavaScript engine](https://v8.dev/).
 
-![node architecture](/images/tutorial/node/node-architecture.png)
+![node architecture](/images/tech/nodejs/node-architecture.png)
 
 * JavaScript Engine: [Chrome V8](https://v8.dev/docs)
 * Event Loop: [libuv](http://libuv.org/)
@@ -121,6 +123,7 @@ There are two aspects to code quality that you can automate.
     * A linter with parser [[ESlint](https://eslint.org)]
     * A configuration to apply rules to your code
 
+[How to Test NodeJS Apps using Mocha, Chai and SinonJS](https://scotch.io/tutorials/how-to-test-nodejs-apps-using-mocha-chai-and-sinonjs)
 
 ## [Unit 10: Application logging with Winston and Log4js](https://www.youtube.com/watch?v=To9F0Xv3adk&list=PL_Kpc42ZZa74gs2Sc94M2wAhZvwWDyd5o&index=9)
 
