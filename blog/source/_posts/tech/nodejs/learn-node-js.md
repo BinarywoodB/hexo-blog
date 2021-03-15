@@ -36,6 +36,7 @@ categories:
         ![release schedule](/images/tech/nodejs/learn-node-js/release-schedule.svg)
 
 1. [Install Node & Npm via node version manager (nvm)](https://github.com/nvm-sh/nvm)
+1. [Use **Npx**](https://www.ruanyifeng.com/blog/2019/02/npx.html)
 
 
 ## [Unit 3: A tour of Node.js](https://www.youtube.com/watch?v=MvOtK6F1HWI)
