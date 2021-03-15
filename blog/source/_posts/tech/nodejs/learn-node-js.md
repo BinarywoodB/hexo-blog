@@ -5,25 +5,24 @@ tags:
 - Tutorial
 - Node.js
 - Youtube
-- Tutorial
 categories:
 - Tech
 - NodeJS
 ---
 
-![node logo](/images/tech/nodejs/nodejs-logo.png)
+![node logo](/images/tech/nodejs/learn-node-js/nodejs-logo.png)
 
 
 ## [Unit 1: Overview of Node.js Learning Path](https://www.youtube.com/watch?v=dlwW2uvQtGY)
 
 * Node Architecture
     
-    ![node architecture](/images/tech/nodejs/node-architecture.png)
+    ![node architecture](/images/tech/nodejs/learn-node-js/node-architecture.png)
 * Libuv.org
 * node modules
 * [Overview of Blocking vs Non-Blocking](https://nodejs.org/en/docs/guides/blocking-vs-non-blocking/)
 * [Easy profiling for Node.js Applications](https://nodejs.org/en/docs/guides/simple-profiling/)
-* ![node event loop](/images/tech/nodejs/event-loop.png)
+* ![node event loop](/images/tech/nodejs/learn-node-js/event-loop.png)
 
 
 ## [Unit 2: Installing Node.js, npm, and VSCode](https://www.youtube.com/watch?v=jOrPHKqz_iE)
@@ -34,7 +33,7 @@ categories:
     * https://nodejs.org/en/download/
     * https://nodejs.org/en/about/releases/
 
-        ![release schedule](/images/tech/nodejs/release-schedule.svg)
+        ![release schedule](/images/tech/nodejs/learn-node-js/release-schedule.svg)
 
 1. [Install Node & Npm via node version manager (nvm)](https://github.com/nvm-sh/nvm)
 
@@ -45,7 +44,7 @@ categories:
 
 Node.js is a JavaScript runtime built on [Chrome V8 JavaScript engine](https://v8.dev/).
 
-![node architecture](/images/tech/nodejs/node-architecture.png)
+![node architecture](/images/tech/nodejs/learn-node-js/node-architecture.png)
 
 * JavaScript Engine: [Chrome V8](https://v8.dev/docs)
 * Event Loop: [libuv](http://libuv.org/)
@@ -106,7 +105,7 @@ Consider case where each request to a web server takes 50ms to complete and 45ms
         ```
     * **tilde symbol, `~`** : include everything greater than a particular version in the same minor range.
         ```
-        "^2.1.9": >= 2.1.9 and < 2.2.0
+        "~2.1.9": >= 2.1.9 and < 2.2.0
         ```
 2. Visualization of npm dependencies: http://npm.anvaka.com/
 
