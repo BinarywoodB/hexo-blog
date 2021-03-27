@@ -16,4 +16,4 @@ The Microsoft Authentication Library (MSAL) supports several authentication flow
 
 
 ## Ref
-* [Authentication flows](https://docs.microsoft.com/en-us/azure/active-directory/develop/msal-authentication-flows#next-steps)
+* [Authentication flows](https://docs.microsoft.com/en-us/azure/active-directory/develop/msal-authentication-flows)

@@ -98,7 +98,66 @@ The authorization code grant type is the most commonly used because it is optimi
 
 ![auth_code_flow](/images/tech/authentication/oauthv2-intro/auth_code_flow.png)
 
+#### Step 1: Authorization Code Link
+
+```
+https://cloud.digitalocean.com/v1/oauth/authorize?response_type=code&client_id=CLIENT_ID&redirect_uri=CALLBACK_URL&scope=read
+```
+Here is an explanation of the link components:
+
+* **https://cloud.digitalocean.com/v1/oauth/authorize**: the API authorization endpoint
+* **client_id=client_id**: the application’s client ID (how the API identifies the application)
+* **redirect_uri=CALLBACK_URL**: where the service redirects the user-agent after an authorization code is granted
+* **response_type=code**: specifies that your application is requesting an authorization code grant
+* **scope=read**: specifies the level of access that the application is requesting
+
+#### Step 2: User Authorizes Application
+
+When the user clicks the link, they must first log in to the service, to authenticate their identity (unless they are already logged in). Then they will be prompted by the service to authorize or deny the application access to their account.
+
+#### Step 3: Application Receives Authorization Code
+
+If the user clicks “Authorize Application”, the service redirects the user-agent to the application redirect URI, which was specified during the client registration, along with an authorization code.
+
+```
+https://dropletbook.com/callback?code=AUTHORIZATION_CODE
+```
+
+#### Step 4: Application Requests Access Token
+
+```
+https://cloud.digitalocean.com/v1/oauth/token?client_id=CLIENT_ID&client_secret=CLIENT_SECRET&grant_type=authorization_code&code=AUTHORIZATION_CODE&redirect_uri=CALLBACK_URL
+```
+
+#### Step 5: Application Receives Access Token
+
+```
+{"access_token":"ACCESS_TOKEN","token_type":"bearer","expires_in":2592000,"refresh_token":"REFRESH_TOKEN","scope":"read","uid":100101,"info":{"name":"Mark E. Mark","email":"mark@thefunkybunch.com"}}
+```
+
 ### Implicit
+
+The implicit grant type is used for mobile apps and web applications (i.e. applications that run in a web browser), where the *client secret* confidentiality is not guaranteed. The implicit grant type is also a redirection-based flow but the access token is given to the user-agent to forward to the application, so it may be exposed to the user and other applications on the user’s device. Also, this flow does not authenticate the identity of the application, and relies on the redirect URI (that was registered with the service) to serve this purpose.
+
+The implicit grant type does not support refresh tokens.
+
+The implicit grant flow basically works as follows: the user is asked to authorize the application, then the authorization server passes the access token back to the user-agent, which passes it to the application. If you are curious about the details, read on.
+
+有些 Web 应用是纯前端应用，没有后端。这时就不能用上面的方式了，必须将令牌储存在前端。RFC 6749 就规定了第二种方式，允许直接向前端颁发令牌。这种方式没有授权码这个中间步骤，所以称为（授权码）"隐藏式"（implicit）。
+
+![implicit_flow](/images/tech/authentication/oauthv2-intro/implicit_flow.png)
+
+#### Step 1: Implicit Authorization Link
+
+```
+https://cloud.digitalocean.com/v1/oauth/authorize?response_type=token&client_id=CLIENT_ID&redirect_uri=CALLBACK_URL&scope=read
+```
+
+#### Step 2: User Authorizes Application
+
+
+注意，令牌的位置是 URL 锚点（fragment），而不是查询字符串（querystring），这是因为 OAuth 2.0 允许跳转网址是 HTTP 协议，因此存在"中间人攻击"的风险，而浏览器跳转时，锚点不会发到服务器，就减少了泄漏令牌的风险。
+
 ### Resource Owner Password Credentials
 ### Client Credentials
 

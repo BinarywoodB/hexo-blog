@@ -50,7 +50,7 @@ https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token
 
 ## Authorization Grant Types
 
-### Authorization Code Flow
+### [Authorization Code Grant Flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow)
 
 ![microsoft-identity-auth-code-flow](/images/tech/authentication/microsoft-identity-platform/microsoft-identity-auth-code-flow.png)
 
@@ -107,14 +107,19 @@ https://login.microsoftonline.com/{tenant}/oauth2/v2.0/token
     ```
 
 
-### Authorization Code Flow (with PKCE) for SPA
+### [Authorization Code Flow (with PKCE) for SPA](https://docs.microsoft.com/en-us/azure/active-directory/develop/reference-third-party-cookies-spas)
 
 ![microsoft-identity-auth-code-flow-with-pkce](/images/tech/authentication/microsoft-identity-platform/microsoft-identity-auth-code-flow-with-pkce.png)
 
 > // TOASK: Is it secure to use auth code in SPA when using PKCE?
 
 
-### Implicit
+### [Implicit Grant Flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-implicit-grant-flow)
+
+* Note: With the plans for [third party cookies to be removed from browsers](https://docs.microsoft.com/en-us/azure/active-directory/develop/reference-third-party-cookies-spas), the implicit grant flow is no longer a suitable authentication method. authorization code flow is recommended for all new applications including SPAs.
+
+![microsoft-identity-implicit-grant-flow](/images/tech/authentication/microsoft-identity-platform/microsoft-identity-implicit-grant-flow.png)
+
 ### Resource Owner Password Credentials
 ### Client Credentials
 
@@ -137,5 +142,4 @@ In our implementation, Tab app uses **authorization code flow with PKCE**.
 
 * [OAuth 2.0 and OpenID Connect protocols on the Microsoft identity platform](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-v2-protocols)
 * [Scenario: Single-page application](https://docs.microsoft.com/en-us/azure/active-directory/develop/scenario-spa-overview)
-* [Single page apps using the authorization code flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/reference-third-party-cookies-spas)
 * [Microsoft identity platform and OAuth 2.0 authorization code flow](https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow)
