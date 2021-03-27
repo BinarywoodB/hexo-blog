@@ -1,5 +1,5 @@
 ---
-title: English Work Email Tips
+title: Write Formal Emails in English
 date: 2021-03-10 21:42:37
 tags:
 - English
@@ -10,7 +10,79 @@ categories:
 - Work
 ---
 
-## Discussion Email
+## The format of a formal email in English
+
+### From / to / cc / bcc
+
+### Subject
+
+Remember to have a concise and  eye-catching subject so your email won't get missed. DON'T send an email without a subject.
+
+### Greeting
+
+* For the Germans and the English, use `Dear xxx`
+* For the Americans, use `Hi` and `Hello` directly.
+    * `Hi Bob, `
+    * `Hi team, `
+
+### Body
+
+* Introduction
+* Body of the text
+* Conclusion
+
+### Closing
+
+* `Thanks,` / `thank you,`
+    
+    More casual and friendly in tone. Used when you're asking for something.
+
+* `Regards,` / `Best regards,`
+    
+    More professional. Better to use when close an informational note.
+
+* `Yours,`
+* `Sincerely,` / `Yours sincerely,`
+* `best,`
+* `take care,`
+* `cheers,`
+* `talk soon,`
+
+### Signature
+
+```
+Di Lin,
+MetaOS team, DevDiv China
+```
+
+### Useful Abbreviation
+
+* ASAP: As soon as possible
+* FYI: For your information
+* OOF: Out-of-office
+* WFH: Work from home
+* TL'DR: Too long, don't read
+* LGTM: Look good to me
+* TBD: To be done, to be decided
+
+### Example
+
+```
+Subject: vscode-iot-workbench v0.1.15 has been released
+
+Hi team,
+
+The latest vscode-iot-workbench v0.1.15 has just been released with all tests passed. For more details please see xxx. Thanks!
+
+Regards,
+
+Di Lin,
+MetaOS team, DevDiv China
+```
+
+## Email Samples on Different Topics
+
+### Discussion
 
 * > Please see my comment in line.
 * When other team member raise another suggestion or solution you disagree, instead of arguing he's wrong, you can try to agree on his solution first with sincere example. Then raise your solution, talk about the difference between them and come out with a conclusion with category.
@@ -61,8 +133,14 @@ categories:
 * > I left a couple of additional comments for thought.  **I think we are really close now.**
 
 
-## Goodbye Email
-
-## Trantision Email
+### Project Trantision 
 
 When you are on a product transition process with other team, communication counts. This process usually includes cross-team communication and it is vital for your career reputation.
+
+### Say Goodbye
+
+### Congratulations
+
+
+## Ref
+* [How to Write Formal Emails in English](https://www.wallstreetenglish.com/blog/how-to-write-formal-emails-in-english/)
