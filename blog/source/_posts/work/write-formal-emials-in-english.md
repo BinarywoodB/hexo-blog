@@ -50,10 +50,9 @@ Remember to have a concise and  eye-catching subject so your email won't get mis
 
 ### Signature
 
-```
-Di Lin,
+
+> Di Lin,  
 MetaOS team, DevDiv China
-```
 
 ### Useful Abbreviation
 
@@ -67,18 +66,16 @@ MetaOS team, DevDiv China
 
 ### Example
 
-```
-Subject: vscode-iot-workbench v0.1.15 has been released
-
-Hi team,
-
-The latest vscode-iot-workbench v0.1.15 has just been released with all tests passed. For more details please see xxx. Thanks!
-
-Regards,
-
-Di Lin,
-MetaOS team, DevDiv China
-```
+> Subject: vscode-iot-workbench v0.1.15 has been released
+> 
+> Hi team,
+> 
+> The latest vscode-iot-workbench v0.1.15 has just been released with all tests passed. For more details please see xxx. Thanks!
+> 
+> Regards,
+> 
+> Di Lin,
+> MetaOS team, DevDiv China
 
 ## Email Samples on Different Topics
 
