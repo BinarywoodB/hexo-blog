@@ -134,10 +134,77 @@ MetaOS team, DevDiv China
 
 When you are on a product transition process with other team, communication counts. This process usually includes cross-team communication and it is vital for your career reputation.
 
-### Say Goodbye
+### Farewell
+
+> Dear friends and colleagues,
+> 
+> As some of you know, I’m going to move on to a different role outside of \<company-name\>, and my last day is Friday, August 30th. I’m a fan of \<company-name\> since I was 22 years old, and enjoying my job here after joined in \<company-name\> 5 years ago. So this is really a hard decision to me in this summer, I think the decision is in the best choice of my career goals and personal interesting, or it’s called ‘follow my heart’. 
+> 
+> 5-years  is not a short period in a person’s life, but how lucky I am is joining this team and working with you guys! It’s really an incredible wonderful journey in my life! Learn and grow, enjoy everything here, and make a lot of good friends. So thank you everyone, it’s been so great working with you!
+> 
+> It's no goodbye but see you around, keep in touch!
+> 
+> Sincerely,  
+> xxx
+
+
+> Hi,
+> 
+> Today is my last day working in \<department-name\>. I will soon start another role in \<another-department-name\>, to continue to explore the IoT territory.
+> 
+> It was still vivid to me the days and nights, smiles and tears we have been working on the \<project-A\>, \<project-B\>, \<project-C\> and all the products. Also I witness the growth of \<department-name\> that now we have multiple charts there. I was so thrilled to be part of this team. Thanks to all of you!
+> 
+> Specially thanks to Bob my manager, who provided numerous helps and guides to me during the past 3.5 years, to shape me up as a good PM for the domain I worked. I learned a lot from you and pretty sure it will benefit for my next endeavor.
+> 
+> I am still in the xxx domain, and we will also have lots of cross paths and collaborations in the near future. Looking forward to it.
+> 
+> Thanks,  
+> xxx
+
+
+> Dear all,
+> 
+> As some of you may know, I am leaving \<company-name\> and today is my last working day. 
+> I started my career in \<company-name\> back from Mar 2010 and it is 10 years already. It is still vivid to me all the days and nights, smiles and tears we have gone through along the way, from \<project-A\> to \<project-B\>. I felt so lucky when getting offer from \<company-name\> in 2009, and I still feel the same today. 
+> 
+> Special thanks to my manager Alen and all SLTs, who give me all the opportunities in \<department-name\>, support me for the various decisions we have made, and encourage me to try something new. I’d like to say thank you to our PM team, especially Bob as well. We know each other for long time and started working together for several years. I really enjoy working with you and your team on various projects over the years. And thanks to all precious managers: Andrew, Eric, Tom and Mike. I cannot achieve so much without your help and guidance. 
+> 
+> I also want to say THANK YOU to all my current & previous colleagues, and partner teams. It is a great journey working with you over the years. It’s the lifetime memory to me.
+> 
+> 
+> Mobile and Wechat: xxxxxxxxxxx  
+> Personal mail: xxx@outlook.com   
+> Linkedin: https://www.linkedin.com/in/xxx/  
+> 
+> xxx  
+> \<department-name\>
+
+
+> Hi friends,
+> 
+> Some of you may already know that I’ll explore new adventures outside \<company-name\> from next week. Today is my last day at \<company-name\>.
+> 
+> I joined \<company-name\> after graduation in 2016. It’s my pleasure to start my career path from such a big company with many creative products. It’s also my fortune to work with so many talented teams and guys. Thanks Bob and \<department-name\> leadership team for giving me opportunity to work and improve myself in this comfortable environment.
+> 
+> Special thanks to my manager Alen, who gave me a lot of help and guidance in my career development, which will equip me for whole career. A role model can help me lay out a career path that is realistic and practical. I believe my future career will benefit a lot from you.
+> 
+> Also thanks for my mentor A, B and C. We’ve been working on different projects, I learnt a lot from you about how to face the challenges and strengthen talent. 
+> 
+> To my buddies in \<project-A\>(as well as PM team), \<project-B\>, \<project-C\>, it’s nice working with you. Thanks for great moment we spent during and off work.
+> 
+> Thanks \<teammate-A\> for innovation and interesting ideas in all kinds of projects. Really enjoy the creative projects we worked together in IoT area.
+> 
+> In the future, you can reach me via +86xxxxxxxxxxx (Wechat with same mobile). Let’s keep in touch.
+> 
+> With best kind regards!
+> 
+> xxx
 
 ### Congratulations
 
+* `Congratulations!`
+* `Congratulations to you!`
+* `Congrats to you!`
 
 ## Ref
 * [How to Write Formal Emails in English](https://www.wallstreetenglish.com/blog/how-to-write-formal-emails-in-english/)
