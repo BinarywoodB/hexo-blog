@@ -41,3 +41,15 @@ If you are new to C# or Azure development, here is some learning resources:
 * Free video courses at [Pluralsight](https://aka.ms/GetPluralsight) (the license price is covered by your EVP).
 * Free online books at [O'Reilly](https://www.oreilly.com/) (login with your @microsoft.com account). ([Android App](https://play.google.com/store/apps/details?id=com.safariflow.queue&hl=en), [iOS App](https://apps.apple.com/us/app/oreilly/id881697395))
 * Soft skills [Linkedin Learning](https://www.linkedin.com/learning/)
+
+
+## Microsoft Learning Resources
+
+* Library - https://aka.ms/mslibrary
+* Read on Kindle, O'Reilly access or Listen to audio book - [Getting Started with E-Books (sharepoint.com)](https://microsoft.sharepoint.com/sites/library/SitePages/InfoDesk/EbooksOverview.aspx)
+* HackerNews - [Hacker News (ycombinator.com)](https://news.ycombinator.com/)
+* Pluralsight - [Pluralsight at Microsoft Frequently Asked Questions (sharepoint.com)](https://microsoft.sharepoint.com/sites/library/SitePages/Pluralsight-at-Microsoft-Frequently-Asked-Questions-FY21.aspx)
+* LinkedIn Learning - [LinkedIn Learning (sharepoint.com)](https://microsoft.sharepoint.com/sites/library/SitePages/ResearchDatabases/Lynda.aspx)
+* WSJ.com - [Accessing The Wall Street Journal (WSJ.com) (sharepoint.com)](https://microsoft.sharepoint.com/sites/library/SitePages/InfoDesk/wsj.aspx)
+* Harvard Business Review - [Accessing Harvard Business Review (sharepoint.com)](https://microsoft.sharepoint.com/sites/library/SitePages/InfoDesk/hbr.aspx)
+* Tuition Program - Please [askHR](https://microsoft.sharepoint.com/sites/hrw/AskHR/Pages/AskHR.aspx)

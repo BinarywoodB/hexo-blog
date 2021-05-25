@@ -206,5 +206,13 @@ When you are on a product transition process with other team, communication coun
 * `Congratulations to you!`
 * `Congrats to you!`
 
+### Ask for Feedback
+
+> Hey Di,
+> 
+> The transition of IoT extensions is mainly completed. Would you please share your feedback with me about the collaboration, communication, management, etc.? I really appreciate your thoughts which are helpful to make me better in future projects :)
+> 
+> Yan
+
 ## Ref
-* [How to Write Formal Emails in English](https://www.wallstreetenglish.com/blog/how-to-write-formal-emails-in-english/)
+* [How to Write Formal Emails in English](https://www.wallstreetenglish.com/blog/how-to-write-formal-emails-in-english/)`
