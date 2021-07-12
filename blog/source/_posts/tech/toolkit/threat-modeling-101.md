@@ -19,9 +19,9 @@ categories:
 * **D**enial of Service (DoS): 拒绝服务
 * **E**levation of Privilege: 特权提升
 
-<object data="/PDF/strike-threat-modeling-101.pdf" type="application/pdf" width="800px" height="800px">
-    <embed src="/PDF/strike-threat-modeling-101.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://binarywoodb.github.io/PDF/strike-threat-modeling-101.pdf">Download PDF</a>.</p>
+<object data="/resource-files/strike-threat-modeling-101.pdf" type="application/pdf" width="800px" height="800px">
+    <embed src="/resource-files/strike-threat-modeling-101.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://binarywoodb.github.io/resource-files/strike-threat-modeling-101.pdf">Download PDF</a>.</p>
     </embed>
 </object>
 
