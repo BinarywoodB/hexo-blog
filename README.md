@@ -6,7 +6,26 @@ Personal blog: https://github.com/BinarywoodB/BinarywoodB.github.io
 
 1. Node.js v12
 
+## Setup Development Environment
+
+1. Clone repo as long as submodule
+    ```bash
+    git clone https://github.com/BinarywoodB/hexo-blog.git
+
+    git submodule init
+    git submodule update
+    ```
+
+1. Install npm packages
+    ```bash
+    cd blog
+    npm install hexo-cli -g
+    npm install
+    ```
+
 ## Development
+
+Enter the `./blog` folder to run the below commands.
 
 1. Create a Hexo Blog
 
