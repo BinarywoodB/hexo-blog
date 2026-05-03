@@ -32,3 +32,5 @@ async function pollStatus(): Promise<void> {
   }, 10000);
 }
 ```
+
+<!-- more -->

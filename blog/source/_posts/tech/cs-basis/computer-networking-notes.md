@@ -30,6 +30,8 @@ categories:
 
     ![switching-comparasion](/images/tech/cs-basis/switching-comparasion.png)
 
+<!-- more -->
+
 ### 计算机网络的体系结构
 
 * OSI vs TCP/IP

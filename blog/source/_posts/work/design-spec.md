@@ -7,6 +7,9 @@ categories:
 - Work
 ---
 ## Design Spec Template
+
+<!-- more -->
+
 <object data="/resource-files/Design Spec Template.pdf" type="application/pdf" width="800px" height="800px">
     <embed src="/resource-files/Design Spec Template.pdf">
         <p>This browser does not support Docx. Please download the Doc to view it: <a href="https://binarywoodb.github.io/resource-files/Design Spec Template.pdf">Download PDF</a>.</p>
