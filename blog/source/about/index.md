@@ -42,7 +42,7 @@ Sep 2023 – Mar 2026
 
 <div style="flex: 1; padding: 20px; border: 1px solid #e0e0e0; border-radius: 8px;">
 <div style="display: flex; gap: 15px; align-items: center;">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Shanghai_Jiao_Tong_University_logo.svg/60px-Shanghai_Jiao_Tong_University_logo.svg.png" alt="SJTU" style="width: 50px; height: 50px; object-fit: contain; flex-shrink: 0;">
+<img src="https://upload.wikimedia.org/wikipedia/en/d/da/Sjtu-logo-standard-red.png" alt="SJTU" style="width: 50px; height: 50px; object-fit: contain; flex-shrink: 0;">
 <div style="flex: 1;">
 <div style="font-weight: bold; font-size: 16px; margin-bottom: 5px;">Shanghai Jiao Tong University</div>
 <div style="font-size: 13px; color: #666; line-height: 1.5;">
