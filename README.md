@@ -167,19 +167,62 @@ Enter the `./blog` folder to run the below commands.
     hexo g && hexo s
     ```
 
-1. Deploy to GitHub Page
-    - Under *blog/* directory, install git as deployer
+1. Deploy to GitHub Pages
+
+    **Option 1: Automatic Deployment with GitHub Actions (Recommended)**
+
+    The repository includes a GitHub Actions CI/CD pipeline that automatically builds and deploys your blog whenever you push code to the `main` branch.
+
+    **Setup (one-time):**
+    1. Add SSH private key as a GitHub secret:
+       - Go to https://github.com/BinarywoodB/hexo-blog/settings/secrets/actions
+       - Click "New repository secret"
+       - Name: `DEPLOY_PRIVATE_KEY`
+       - Value: Copy your SSH private key content from `~/.ssh/id_ed25519`
+
+    2. Add SSH public key as deploy key in BinarywoodB.github.io:
+       - Go to https://github.com/BinarywoodB/BinarywoodB.github.io/settings/keys
+       - Click "Add deploy key"
+       - Title: `Hexo Blog Deploy`
+       - Key: Your SSH public key from `~/.ssh/id_ed25519.pub`
+       - ✓ Check "Allow write access"
+
+    **Usage:**
+    ```bash
+    # Just push your changes - GitHub Actions will auto-deploy!
+    git add .
+    git commit -m "your message"
+    git push origin main
+    ```
+
+    The workflow will:
+    - Install Node.js 20
+    - Install dependencies
+    - Build the Hexo blog
+    - Push static files to BinarywoodB.github.io
+    - Deploy to GitHub Pages
+
+    Monitor progress at: https://github.com/BinarywoodB/hexo-blog/actions
+
+    **Option 2: Manual Local Deployment**
+
+    If you prefer to deploy locally:
+
+    1. Install git deployer:
         ```bash
+        cd blog
         npm install hexo-deployer-git --save
         ```
-    - Update *_config.yml* file
+
+    2. Ensure `blog/_config.yml` has deployment config:
         ```yaml
         deploy:
             type: git
             repo: git@github.com:BinarywoodB/BinarywoodB.github.io.git
             branch: main
         ```
-    - Deploy To GitHub Page
+
+    3. Deploy:
         ```bash
         hexo clean && hexo g && hexo d
         ```
