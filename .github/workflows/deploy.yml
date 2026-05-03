@@ -43,6 +43,9 @@ jobs:
           chmod 600 ~/.ssh/id_ed25519
           ssh-keyscan -H github.com >> ~/.ssh/known_hosts
 
+      - name: Ensure .nojekyll exists
+        run: touch hexo-blog/blog/public/.nojekyll
+
       - name: Deploy to GitHub Pages
         working-directory: hexo-blog/blog
         run: npm run deploy
