@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.1.0] - 2026-05-03
+
+### Added
+- NPM-based NexT theme installation (hexo-theme-next ^8.27.0)
+- Theme version management via package.json
+
+### Changed
+- Migrated from git-cloned theme to NPM package for better dependency management
+- Theme updates now via `npm update hexo-theme-next` instead of git operations
+- Updated about page with latest work experience and education details
+
+### Removed
+- .gitmodules file (submodule configuration)
+- themes/next git repository (now managed via npm)
+
 ## [2.0.0] - 2026-05-03
 
 ### Added

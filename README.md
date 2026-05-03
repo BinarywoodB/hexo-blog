@@ -10,10 +10,8 @@ Personal blog: https://binarywoodb.github.io
 ## Quick Start
 
 ```bash
-# Clone with submodules
+# Clone the repository
 git clone https://github.com/BinarywoodB/hexo-blog.git
-git submodule init
-git submodule update
 
 # Install dependencies
 cd blog
