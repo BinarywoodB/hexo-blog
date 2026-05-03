@@ -10,7 +10,7 @@ date: 2021-01-02 16:42:03
 **Software Engineer II @ Microsoft**  
 *Core AI — AI Platform (Speech / AI Agents)*
 
-📍 Redmond, Washington  |  📧 lindisjtu@gmail.com  |  🔗 [LinkedIn](https://www.linkedin.com/in/di-lin-778b8a119/)
+📍 Redmond, Washington  |  📧 lindisjtu[at]gmail[dot]com  |  🔗 [LinkedIn](https://www.linkedin.com/in/di-lin-778b8a119/)
 
 ---
 
@@ -18,7 +18,7 @@ date: 2021-01-02 16:42:03
 
 AI/ML engineer specializing in building production AI agents and speech technologies at Microsoft. Currently tech-leading Azure Speech integration into Microsoft Foundry, a next-generation AI platform. 7+ years driving innovation in AI systems, MCP servers, developer tools, and cloud infrastructure.
 
-> **Interested in collaborating on AI agents, speech technologies, or infrastructure? [Let's connect](mailto:lindisjtu@gmail.com)**
+> **Interested in collaborating on AI agents, speech technologies, or infrastructure? Reach me at lindisjtu[at]gmail[dot]com**
 
 ---
 
@@ -27,8 +27,8 @@ AI/ML engineer specializing in building production AI agents and speech technolo
 <div style="display: flex; gap: 30px; margin: 20px 0;">
 
 <div style="flex: 1; padding: 20px; border: 1px solid #e0e0e0; border-radius: 8px;">
-<div style="display: flex; gap: 15px;">
-<div style="font-size: 40px;">🏫</div>
+<div style="display: flex; gap: 15px; align-items: center;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Washington_Huskies_logo.svg/60px-Washington_Huskies_logo.svg.png" alt="UW" style="width: 50px; height: 50px; object-fit: contain; flex-shrink: 0;">
 <div style="flex: 1;">
 <div style="font-weight: bold; font-size: 16px; margin-bottom: 5px;">University of Washington</div>
 <div style="font-size: 13px; color: #666; line-height: 1.5;">
@@ -41,8 +41,8 @@ Sep 2023 – Mar 2026
 </div>
 
 <div style="flex: 1; padding: 20px; border: 1px solid #e0e0e0; border-radius: 8px;">
-<div style="display: flex; gap: 15px;">
-<div style="font-size: 40px;">🎓</div>
+<div style="display: flex; gap: 15px; align-items: center;">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Shanghai_Jiao_Tong_University_logo.svg/60px-Shanghai_Jiao_Tong_University_logo.svg.png" alt="SJTU" style="width: 50px; height: 50px; object-fit: contain; flex-shrink: 0;">
 <div style="flex: 1;">
 <div style="font-weight: bold; font-size: 16px; margin-bottom: 5px;">Shanghai Jiao Tong University</div>
 <div style="font-size: 13px; color: #666; line-height: 1.5;">
