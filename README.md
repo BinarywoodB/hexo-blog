@@ -1,298 +1,140 @@
-# Hexo Blog Tutorial
+# Hexo Blog
 
-Personal blog: https://github.com/BinarywoodB/BinarywoodB.github.io
+Personal blog: https://binarywoodb.github.io
 
-## Prerequisite
+## Prerequisites
 
-1. Node.js v12
+- Node.js 20+
+- Git with SSH configured
 
-## Setup Development Environment
+## Quick Start
 
-1. Clone repo as long as submodule
-    ```bash
-    git clone https://github.com/BinarywoodB/hexo-blog.git
+```bash
+# Clone with submodules
+git clone https://github.com/BinarywoodB/hexo-blog.git
+git submodule init
+git submodule update
 
-    git submodule init
-    git submodule update
-    ```
-
-1. Install npm packages
-    ```bash
-    cd blog
-    npm install hexo-cli -g
-    npm install
-    ```
+# Install dependencies
+cd blog
+npm install
+```
 
 ## Development
 
-Enter the `./blog` folder to run the below commands.
+All commands run in the `blog/` directory.
 
-1. Create a Hexo Blog
+**Local preview:**
+```bash
+hexo server  # or: hexo s
+# Visit: http://localhost:4000
+```
 
-    ```bash
-    npm install hexo-cli -g
-    hexo init blog
-    cd blog
-    npm install
-    hexo server
-    ```
+**Build static files:**
+```bash
+hexo generate  # or: hexo g
+```
 
-1. Set information of your blog
+## Create Content
 
-    ```yaml    
-    # _config.yml
-    # Site
-    title: Di Lin's Blog
-    subtitle: ''
-    description: 'Di Lin's personal blog'
-    keywords:
-    author: Di Lin
-    language: en
-    timezone: ''
-    ```
+**New post:**
+```bash
+hexo new "post title"
+hexo new -p category/post-name.md "Post Title"
+```
 
-1. Use nexT them
+**New page:**
+```bash
+hexo new page about
+```
 
-    - Fork next theme repo to your personal github so later you can make changes to the next config. Go to https://github.com/theme-next/hexo-theme-next and click fork to your personal github.
+**New draft:**
+```bash
+hexo new draft "draft title"
+hexo publish draft "draft title"  # Publish when ready
+```
 
-    - Set next as your hexo blog's submodule.
-        ```bash
-        git submodule add https://github.com/<your-github-name>/hexo-theme-next blog/themes/next
-        ```
-    - Update `blog/_config.yml`:
-        ```
-        theme: next
-        ```
+Posts go to `source/_posts/` with front matter:
+```yaml
+---
+title: Post Title
+date: 2026-05-03
+categories:
+- Category
+tags:
+- tag1
+- tag2
+---
 
-1. Overwrite nexT config
-    
-    Add `theme_config` in [_config.yml](./blog/_config.yml) to override config of theme. (e.g. themes/next/_config.yml)
-    ```yaml
-    theme_config:
-    avatar:
-        # avatar locates in ./blog/source/images/avatar.jpg
-        url: /images/avatar.jpg
-    sidebar:
-        position: right
-    ```
-1. Local debug your blog
+Content here...
+```
 
-    ```bash
-    # Generate static files
-    $ hexo generate
-    $ hexo g
+## Deployment
 
-    # Start hexo server, running at localhost:4000/
-    $ hexo server
-    $ hexo s
-    ```
+### Option 1: Automatic CI/CD (Recommended)
 
-1. Create a new page / post / draft
+GitHub Actions automatically builds and deploys when you push to `main`.
 
-    ```bash
-    $ hexo new [layout] <title>
-    $ hexo new page tags
-    $ hexo new page about
-    ```
-    Layout:
-    
-    * page
-    * post
-    * draft
+**One-time setup:**
 
-    After creating new pages, you can find new page folder with *index.html* under *source* folder. 
-    
-    Create the new page **before** you add content to that page, or you will get 404 when nevigate to the page. Since the new page command will create index.html for the page.
+1. Add SSH private key as GitHub secret:
+   - Go to https://github.com/BinarywoodB/hexo-blog/settings/secrets/actions
+   - Create secret `DEPLOY_PRIVATE_KEY` with content of `~/.ssh/id_ed25519`
 
-1. Create pages for your personal site
+2. Add SSH public key as deploy key:
+   - Go to https://github.com/BinarywoodB/BinarywoodB.github.io/settings/keys
+   - Add deploy key with `~/.ssh/id_ed25519.pub`
+   - Enable "Allow write access"
 
-    - Create page
-        ```bash
-        $ hexo new page about
-        $ hexo new page tags
-        $ hexo new page CV
-        $ hexo new page categories
-        ```
-    - Edit *blog/source/about/index.md* to add your about info.
-    - Update *_config.yml*
-        ```yaml
-        theme: next
-        theme_config:
-        menu:
-            home: / || fa fa-home
-            about: /about/ || fa fa-user
-            CV: /CV/ || fa fa-heartbeat
-            tags: /tags/ || fa fa-tags
-            categories: /categories/ || fa fa-th
-            archives: /archives/ || fa fa-archive
-        ```
-    - Add "type" to *blog/source/tags/index.md* and *blog/source/categories/index.md*. So posts with "tags" or "categories" can be sorted into these two pages.
-        ```md
-        # *blog/source/tags/index.md*
-        ---
-        title: tags
-        date: 2021-01-02 16:24:48
-        type: "tags"
-        ---
+**Usage:**
+```bash
+git add .
+git commit -m "Update blog"
+git push origin main
+# ✨ Automatic deployment to GitHub Pages!
+```
 
-        # blog/source/categories/index.md
-        ---
-        title: categories
-        date: 2021-01-02 19:56:18
-        type: "categories"
-        ---
-        ```
+Monitor at: https://github.com/BinarywoodB/hexo-blog/actions
 
-1. Create a new post
+### Option 2: Manual Deployment
 
-    Place your default blogs as posts. To create new post:
+```bash
+cd blog
+hexo clean && hexo generate && hexo deploy
+# or shorthand: hexo clean && hexo g && hexo d
+```
 
-    ```bash
-    $ hexo new "post file name"
-    $ hexo new -p toolkit/delete-useless-aad-app.md "Delete Useless AAD App"
-    ```
+## Configuration
 
-1. Create a new draft
+Edit `blog/_config.yml` for site settings:
 
-    ```bash
-    # You need to point out path. Default layout is post.
-    $ hexo new draft "newDraft"
+```yaml
+# Site
+title: Your Blog Title
+subtitle: Subtitle
+description: Description
+author: Your Name
 
-    $ hexo publish [layout] <filename>
-    # E.g. hexo publish
-    ```
+# Theme
+theme: next
 
-1. Local debug
-    ```bash
-    hexo g && hexo s
-    ```
+# Deployment
+deploy:
+  type: git
+  repo: git@github.com:YOUR-USERNAME/YOUR-USERNAME.github.io.git
+  branch: main
+```
 
-1. Deploy to GitHub Pages
+Customize theme in `theme_config` section. See `themes/next/_config.yml` for all options.
 
-    **Option 1: Automatic Deployment with GitHub Actions (Recommended)**
+## Troubleshooting
 
-    The repository includes a GitHub Actions CI/CD pipeline that automatically builds and deploys your blog whenever you push code to the `main` branch.
+**Icons not showing after deployment:**
+- This is handled by `hexo-filter-optimize` with Font Awesome CDN
+- Config: `blog/_config.yml` has `filter_optimize.css.excludes: ['**/font-awesome.min.css']`
 
-    **Setup (one-time):**
-    1. Add SSH private key as a GitHub secret:
-       - Go to https://github.com/BinarywoodB/hexo-blog/settings/secrets/actions
-       - Click "New repository secret"
-       - Name: `DEPLOY_PRIVATE_KEY`
-       - Value: Copy your SSH private key content from `~/.ssh/id_ed25519`
+## Resources
 
-    2. Add SSH public key as deploy key in BinarywoodB.github.io:
-       - Go to https://github.com/BinarywoodB/BinarywoodB.github.io/settings/keys
-       - Click "Add deploy key"
-       - Title: `Hexo Blog Deploy`
-       - Key: Your SSH public key from `~/.ssh/id_ed25519.pub`
-       - ✓ Check "Allow write access"
-
-    **Usage:**
-    ```bash
-    # Just push your changes - GitHub Actions will auto-deploy!
-    git add .
-    git commit -m "your message"
-    git push origin main
-    ```
-
-    The workflow will:
-    - Install Node.js 20
-    - Install dependencies
-    - Build the Hexo blog
-    - Push static files to BinarywoodB.github.io
-    - Deploy to GitHub Pages
-
-    Monitor progress at: https://github.com/BinarywoodB/hexo-blog/actions
-
-    **Option 2: Manual Local Deployment**
-
-    If you prefer to deploy locally:
-
-    1. Install git deployer:
-        ```bash
-        cd blog
-        npm install hexo-deployer-git --save
-        ```
-
-    2. Ensure `blog/_config.yml` has deployment config:
-        ```yaml
-        deploy:
-            type: git
-            repo: git@github.com:BinarywoodB/BinarywoodB.github.io.git
-            branch: main
-        ```
-
-    3. Deploy:
-        ```bash
-        hexo clean && hexo g && hexo d
-        ```
-
-## Known Issue
-1. Next theme icon not showing when deploy to GitHub page [[REF: The icons are gone?](https://github.com/theme-next/hexo-filter-optimize/issues/2)]
-
-    **Root Cause**: The next plugin fails to pack font-awesome to correct location. We can  
-
-    - Install `hexo-filter-optimize`
-        ```bash
-        cd blog && npm install hexo-filter-optimize -D
-        ```
-    -  Activate the plugin in hexo's *_config.yml* like this:
-        ```yaml        
-        filter_optimize:
-        enable: true
-        # remove the surrounding comments in each of the bundled files
-        remove_comments: false
-        css:
-            # minify all css files
-            minify: true
-            # bundle loaded css files into one
-            bundle: true
-            # use a script block to load css elements dynamically
-            delivery: true
-            # make specific css content inline into the html page
-            #   - only support the full path
-            #   - default is ['css/main.css']
-            inlines:
-            excludes:
-            - '**/font-awesome.min.css'
-        js:
-            # minify all js files
-            minify: true
-            # bundle loaded js files into one
-            bundle: true
-            excludes:
-        # set the priority of this plugin,
-        # lower means it will be executed first, default of Hexo is 10
-        priority: 12  
-        ```
-        Mind the following part to fix the filter issue.
-        ```yaml
-        css:
-            ...
-            excludes:
-            - '**/font-awesome.min.css'
-        ```
-
-    - In *<next_root>/_config.myl*, use CDN to provide font-awesome.
-        ```
-        vendors:
-        # Internal path prefix.
-        _internal: lib
-
-        # Internal version: 3.1.0
-        # anime: //cdn.jsdelivr.net/npm/animejs@3.1.0/lib/anime.min.js
-        anime:
-
-        # Internal version: 5.13.0
-        # fontawesome: //cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css
-        fontawesome: //cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css
-        ```
-    - Deploy To GitHub Page again
-        ```bash
-        hexo clean && hexo g && hexo d
-        ```
-1. Case sensitive issue of files / directories of `tags`/`categories`.
-
-    Resolved: [hexo-deploy-case-sensitive](http://1mhz.me/2015/hexo-deploy-case-sensitive/) 
-## Reference
-* [Hexo Blog Documentation](https://hexo.io/docs/)
+- [Hexo Documentation](https://hexo.io/docs/)
+- [NexT Theme Documentation](https://theme-next.js.org/)
+- [GitHub Pages Guide](https://pages.github.com/)
