@@ -27,18 +27,20 @@ AI/ML engineer specializing in building production AI agents and speech technolo
 <div style="margin: 20px 0;">
 
 <div style="display: flex; gap: 15px; align-items: center; padding: 12px 0; border-bottom: 1px solid #e0e0e0;">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Washington_Huskies_logo.svg/60px-Washington_Huskies_logo.svg.png" alt="UW" style="width: 40px; height: 40px; object-fit: contain; flex-shrink: 0;">
-<div>
-<span style="font-weight: bold;">University of Washington</span>
-<span style="color: #666; font-size: 13px; margin-left: 10px;">M.S. Computer Science & Engineering · Sep 2023 – Mar 2026</span>
+<div style="width: 48px; height: 48px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Washington_Huskies_logo.svg/60px-Washington_Huskies_logo.svg.png" alt="UW" style="max-width: 44px; max-height: 44px; object-fit: contain;"></div>
+<div style="line-height: 1.45;">
+<div style="font-weight: bold; font-size: 15px;">University of Washington</div>
+<div style="color: #333;">Master of Science, COMPUTER SCIENCE & ENGINEERING</div>
+<div style="color: #666;">Sep 2023 – Mar 2026</div>
 </div>
 </div>
 
 <div style="display: flex; gap: 15px; align-items: center; padding: 12px 0;">
-<img src="https://upload.wikimedia.org/wikipedia/en/d/da/Sjtu-logo-standard-red.png" alt="SJTU" style="width: 40px; height: 40px; object-fit: contain; flex-shrink: 0;">
-<div>
-<span style="font-weight: bold;">Shanghai Jiao Tong University</span>
-<span style="color: #666; font-size: 13px; margin-left: 10px;">B.E. Information Engineering · Sep 2014 – Jul 2018</span>
+<div style="width: 48px; height: 48px; display: flex; align-items: center; justify-content: center; flex-shrink: 0;"><img src="https://upload.wikimedia.org/wikipedia/en/d/da/Sjtu-logo-standard-red.png" alt="SJTU" style="max-width: 44px; max-height: 44px; object-fit: contain;"></div>
+<div style="line-height: 1.45;">
+<div style="font-weight: bold; font-size: 15px;">Shanghai Jiao Tong University</div>
+<div style="color: #333;">Bachelor's degree, Electrical, Electronic and Communications Engineering Technology/Technician</div>
+<div style="color: #666;">Sep 2014 – Jul 2018</div>
 </div>
 </div>
 
