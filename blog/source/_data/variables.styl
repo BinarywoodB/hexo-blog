@@ -2,3 +2,13 @@
 body {
   margin-top: 0 !important;
 }
+
+// Prevent embedded PDFs from causing horizontal overflow on mobile.
+@media (max-width: 767px) {
+  .post-body object,
+  .post-body embed {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+  }
+}
